@@ -86,4 +86,5 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
     double w = b->x * (a->y - c->y);
     double e = c->x * (a->y - b->y);
     double area = fabs((q+w+e)/2);
+    return area;
 }
