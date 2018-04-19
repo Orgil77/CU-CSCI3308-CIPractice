@@ -1,4 +1,4 @@
 language: C
 install : make dep
-script: make && ./geometry_test
+script: make && make test
 sudo: enabled
