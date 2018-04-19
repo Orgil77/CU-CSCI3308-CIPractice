@@ -157,7 +157,7 @@ START_TEST(test_2d_area_triangle){
     a.x = c.x = 0;
     c.y = b.x = 2;
     coord_2d_area_triangle(&a,&b,&c);
-    ck_assert(coord_2d_area_triangle(&a,&b,&c) == 2);
+    ck_assert(coord_2d_area_triangle(&a,&b,&c) == 2.0);
 }
 END_TEST
 /* coord_2d Test Suite */
